@@ -5,7 +5,7 @@ require('dotenv').config()//loads .env file contents into process.env by default
 const express = require('express')
 
 //6 import cors 
-// const cors = require('cors')
+const cors = require('cors')
 
 // import db connection 
 require('./DB/connection')
